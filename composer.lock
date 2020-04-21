@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03465fb6ca7f6ceafba0ffc1518badce",
+    "content-hash": "f32cbdf1c685d2620e7e6053a396420e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3668,16 +3668,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.8.2",
+            "version": "8.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "f997857003276c2ae6d27db30f0eab9c7dd10e62"
+                "reference": "e22cfc3adf1dac7a92452287a7d8602f3c27b68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/f997857003276c2ae6d27db30f0eab9c7dd10e62",
-                "reference": "f997857003276c2ae6d27db30f0eab9c7dd10e62",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e22cfc3adf1dac7a92452287a7d8602f3c27b68f",
+                "reference": "e22cfc3adf1dac7a92452287a7d8602f3c27b68f",
                 "shasum": ""
             },
             "require": {
@@ -3894,7 +3894,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-02-01T19:51:15+00:00"
+            "time": "2020-04-02T19:01:19+00:00"
         },
         {
             "name": "drupal/core-dev",
@@ -5045,6 +5045,69 @@
             }
         },
         {
+            "name": "drupal/queue_ui",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/queue_ui.git",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/queue_ui-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "7edf7715d7ca5d255fc3ea86aff27997617af8ea"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1530874421",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bceyssens",
+                    "homepage": "https://www.drupal.org/user/2743951"
+                },
+                {
+                    "name": "coltrane",
+                    "homepage": "https://www.drupal.org/user/91990"
+                },
+                {
+                    "name": "floretan",
+                    "homepage": "https://www.drupal.org/user/66163"
+                },
+                {
+                    "name": "jochemh",
+                    "homepage": "https://www.drupal.org/user/2811585"
+                },
+                {
+                    "name": "tsphethean",
+                    "homepage": "https://www.drupal.org/user/881620"
+                }
+            ],
+            "description": "Interface and manager for Drupal queues.",
+            "homepage": "https://www.drupal.org/project/queue_ui",
+            "support": {
+                "source": "https://git.drupalcode.org/project/queue_ui"
+            }
+        },
+        {
             "name": "drupal/quick_node_clone",
             "version": "1.12.0",
             "source": {
@@ -5374,11 +5437,17 @@
         },
         {
             "name": "drupal/search_api",
-            "version": "dev-1.x",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api.git",
-                "reference": "4ed69399fc023f6be44ca04acbe0b6c859c507ad"
+                "reference": "8.x-1.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.16.zip",
+                "reference": "8.x-1.16",
+                "shasum": "59bf49fd506d532b0da62e30165d06057ab90013"
             },
             "require": {
                 "drupal/core": "^8.7.4"
@@ -5398,15 +5467,12 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1577639583",
+                    "version": "8.x-1.16",
+                    "datestamp": "1586374699",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -5436,11 +5502,10 @@
             "description": "Provides a generic framework for modules offering search capabilities.",
             "homepage": "https://www.drupal.org/project/search_api",
             "support": {
-                "source": "http://git.drupal.org/project/search_api.git",
+                "source": "https://git.drupalcode.org/project/search_api",
                 "issues": "https://www.drupal.org/project/issues/search_api",
                 "irc": "irc://irc.freenode.org/drupal-search-api"
-            },
-            "time": "2019-12-29T17:16:47+00:00"
+            }
         },
         {
             "name": "drupal/search_api_autocomplete",
@@ -6369,6 +6434,49 @@
             "time": "2020-01-05T14:11:20+00:00"
         },
         {
+            "name": "evenement/evenement",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "531bfb9d15f8aa57454f5f0285b18bec903b8fb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/531bfb9d15f8aa57454f5f0285b18bec903b8fb7",
+                "reference": "531bfb9d15f8aa57454f5f0285b18bec903b8fb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2017-07-23T21:35:13+00:00"
+        },
+        {
             "name": "fabpot/goutte",
             "version": "v3.2.3",
             "source": {
@@ -7088,6 +7196,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -7134,6 +7243,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -9413,6 +9523,91 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
+            "name": "react/child-process",
+            "version": "v0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/child-process.git",
+                "reference": "6895afa583d51dc10a4b9e93cd3bce17b3b77ac3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/child-process/zipball/6895afa583d51dc10a4b9e93cd3bce17b3b77ac3",
+                "reference": "6895afa583d51dc10a4b9e93cd3bce17b3b77ac3",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.0",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+                "react/stream": "^1.0 || ^0.7.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35",
+                "react/socket": "^1.0",
+                "sebastian/environment": "^3.0 || ^2.0 || ^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\ChildProcess\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event-driven library for executing child processes with ReactPHP.",
+            "keywords": [
+                "event-driven",
+                "process",
+                "reactphp"
+            ],
+            "time": "2019-02-15T13:48:16+00:00"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/event-loop.git",
+                "reference": "6d24de090cd59cfc830263cfba965be77b563c13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/6d24de090cd59cfc830263cfba965be77b563c13",
+                "reference": "6d24de090cd59cfc830263cfba965be77b563c13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35"
+            },
+            "suggest": {
+                "ext-event": "~1.0 for ExtEventLoop",
+                "ext-pcntl": "For signal handling support when using the StreamSelectLoop",
+                "ext-uv": "* for ExtUvLoop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\EventLoop\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ReactPHP's core reactor event loop that libraries can use for evented I/O.",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2020-01-01T18:39:52+00:00"
+        },
+        {
             "name": "react/promise",
             "version": "v2.7.1",
             "source": {
@@ -9457,6 +9652,52 @@
                 "promises"
             ],
             "time": "2019-01-07T21:25:54+00:00"
+        },
+        {
+            "name": "react/stream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/stream.git",
+                "reference": "50426855f7a77ddf43b9266c22320df5bf6c6ce6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/50426855f7a77ddf43b9266c22320df5bf6c6ce6",
+                "reference": "50426855f7a77ddf43b9266c22320df5bf6c6ce6",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.8",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5"
+            },
+            "require-dev": {
+                "clue/stream-filter": "~1.2",
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Stream\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event-driven readable and writable streams for non-blocking I/O in ReactPHP",
+            "keywords": [
+                "event-driven",
+                "io",
+                "non-blocking",
+                "pipe",
+                "reactphp",
+                "readable",
+                "stream",
+                "writable"
+            ],
+            "time": "2019-01-01T16:15:09+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -10773,16 +11014,16 @@
         },
         {
             "name": "symfony/class-loader",
-            "version": "v3.4.36",
+            "version": "v3.4.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/class-loader.git",
-                "reference": "e212b06996819a2bce026a63da03b7182d05a690"
+                "reference": "e4636a4f23f157278a19e5db160c63de0da297d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/class-loader/zipball/e212b06996819a2bce026a63da03b7182d05a690",
-                "reference": "e212b06996819a2bce026a63da03b7182d05a690",
+                "url": "https://api.github.com/repos/symfony/class-loader/zipball/e4636a4f23f157278a19e5db160c63de0da297d8",
+                "reference": "e4636a4f23f157278a19e5db160c63de0da297d8",
                 "shasum": ""
             },
             "require": {
@@ -10825,7 +11066,7 @@
             ],
             "description": "Symfony ClassLoader Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T13:31:17+00:00"
+            "time": "2020-03-15T09:38:08+00:00"
         },
         {
             "name": "symfony/config",
@@ -12717,16 +12958,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.36",
+            "version": "v3.4.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "dab657db15207879217fc81df4f875947bf68804"
+                "reference": "e701b47e11749970f63803879c4febb520f07b6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/dab657db15207879217fc81df4f875947bf68804",
-                "reference": "dab657db15207879217fc81df4f875947bf68804",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e701b47e11749970f63803879c4febb520f07b6c",
+                "reference": "e701b47e11749970f63803879c4febb520f07b6c",
                 "shasum": ""
             },
             "require": {
@@ -12772,7 +13013,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-24T15:33:53+00:00"
+            "time": "2020-03-25T12:02:26+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -13452,7 +13693,6 @@
         "drupal/rdfui": 20,
         "drupal/role_theme_switcher": 20,
         "drupal/s3fs": 20,
-        "drupal/search_api": 20,
         "frictionlessdata/datapackage": 20,
         "strawberryfield/format_strawberryfield": 20,
         "strawberryfield/strawberryfield": 20,
