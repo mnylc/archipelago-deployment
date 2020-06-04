@@ -1,0 +1,43 @@
+uuid: 3feaaae6-c21c-49f4-bd49-7becfaa26569
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.contributor
+    - field.field.node.digital_object.body
+    - field.field.node.digital_object.field_descriptive_metadata
+    - field.field.node.digital_object.field_tags
+    - node.type.digital_object
+  module:
+    - field_layout
+    - layout_discovery
+    - webform_strawberryfield
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.digital_object.contributor
+targetEntityType: node
+bundle: digital_object
+mode: contributor
+content:
+  field_descriptive_metadata:
+    weight: 0
+    settings:
+      webform_id: image_contributor
+      placeholder: 'Add Image and Basic Metadata'
+    third_party_settings: {  }
+    type: strawberryfield_webform_inline_widget
+    region: content
+hidden:
+  body: true
+  created: true
+  field_tags: true
+  langcode: true
+  moderation_state: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

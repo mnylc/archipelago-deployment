@@ -1,0 +1,842 @@
+11:
+  id:
+    value: '11'
+  uuid:
+    value: 4319f2ad-bd1d-4a10-8ef1-38ae72d03618
+  revision_id:
+    value: '11'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574683830'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: Disclaimer
+  description:
+    value: Disclaimer
+  menu_name:
+    value: footer
+  link:
+    uri: 'internal:/disclaimer'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1574683843'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+15:
+  id:
+    value: '15'
+  uuid:
+    value: b7477331-a205-44ce-b4d9-bbace0cc5b26
+  revision_id:
+    value: '15'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574747661'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: ESIE
+  description:
+    value: 'About page'
+  menu_name:
+    value: footer
+  link:
+    uri: 'internal:/about-esie'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1574747661'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+16:
+  id:
+    value: '16'
+  uuid:
+    value: c480db20-c413-4ee6-a95d-69e36a2f7ae8
+  revision_id:
+    value: '16'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574747690'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'Metadata Guidelines'
+  description:
+    value: 'Metadata guidelines'
+  menu_name:
+    value: footer
+  link:
+    uri: 'internal:/metadata-guidelines'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1574747690'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+17:
+  id:
+    value: '17'
+  uuid:
+    value: b47ad3b2-ccab-42e8-bbbb-3ea7ab2e89c0
+  revision_id:
+    value: '17'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574747714'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'Our Panoramas'
+  description:
+    value: 'List of content'
+  menu_name:
+    value: footer
+  link:
+    uri: 'internal:/our-panoramas'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1574798216'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+24:
+  id:
+    value: '24'
+  uuid:
+    value: aed89dcc-84ee-446b-99ff-6b5663f051a3
+  revision_id:
+    value: '24'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1575925421'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'About ESIE'
+  description:
+    value: 'About ESIE'
+  menu_name:
+    value: main
+  link:
+    uri: 'internal:/about-esie'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1575997713'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+1:
+  id:
+    value: '1'
+  uuid:
+    value: 171675b3-f391-46c8-a1c4-5242dba3c8fe
+  revision_id:
+    value: '1'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1566577814'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '0'
+  title:
+    value: Webforms
+  description:
+    value: 'Edit Webforms'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/admin/structure/webform'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-44'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1574887915'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+2:
+  id:
+    value: '2'
+  uuid:
+    value: b91b16f9-3cb3-48f6-99f3-b8c161bf4f90
+  revision_id:
+    value: '2'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1570126941'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: Create
+  description:
+    value: 'Create content using different forms'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:#'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-39'
+  expanded:
+    value: '1'
+  parent: false
+  changed:
+    value: '1575926366'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+3:
+  id:
+    value: '3'
+  uuid:
+    value: 35963ec3-dd4b-422f-b54b-c4f339447c5c
+  revision_id:
+    value: '3'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1570127162'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '0'
+  title:
+    value: Toolbox
+  description:
+    value: 'Repository Content Tools'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:#'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-43'
+  expanded:
+    value: '1'
+  parent: false
+  changed:
+    value: '1574887915'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+4:
+  id:
+    value: '4'
+  uuid:
+    value: b9760768-5126-4997-9fcf-7f8eb20f5930
+  revision_id:
+    value: '4'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1570127250'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '0'
+  title:
+    value: 'SBF Taxonomy'
+  description:
+    value: 'Our Vocabulary'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/admin/structure/taxonomy/manage/strawberryfield_voc_id/overview'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-45'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1574887915'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+5:
+  id:
+    value: '5'
+  uuid:
+    value: 19743860-ba78-4709-9f34-a3740ff01924
+  revision_id:
+    value: '5'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1570129032'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'All Content'
+  description:
+    value: 'All Content'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/all-content'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-50'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:9c2569ec-a6d4-44e5-8519-bd0a3a8e651a'
+  changed:
+    value: '1575910589'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+6:
+  id:
+    value: '6'
+  uuid:
+    value: fdab43a1-c4b0-442f-bcda-d4d7466719d8
+  revision_id:
+    value: '6'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1570140441'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'Panorama Tour'
+  description:
+    value: 'Create a Panorama Tour'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/node/add-list/panorama_tour_builder'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-49'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:b91b16f9-3cb3-48f6-99f3-b8c161bf4f90'
+  changed:
+    value: '1576006361'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+7:
+  id:
+    value: '7'
+  uuid:
+    value: d89aadb8-54a0-4c44-88c2-927d6a53cd1b
+  revision_id:
+    value: '7'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1572491978'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: Panorama
+  description:
+    value: 'Add a Panorama'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/node/add/digital_object/contributor'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-50'
+  expanded:
+    value: '1'
+  parent:
+    value: 'menu_link_content:b91b16f9-3cb3-48f6-99f3-b8c161bf4f90'
+  changed:
+    value: '1576006351'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+9:
+  id:
+    value: '9'
+  uuid:
+    value: 8a5b239b-c9ef-4d88-9c08-dd25ebacaba0
+  revision_id:
+    value: '9'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574286967'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'Curate Unpublished Panoramas'
+  description:
+    value: 'Panoramas that need to be reviewed and published.'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/unpublished-panoramas'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-48'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:9c2569ec-a6d4-44e5-8519-bd0a3a8e651a'
+  changed:
+    value: '1576024043'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+10:
+  id:
+    value: '10'
+  uuid:
+    value: 350c9b3e-4ee6-461b-bc21-cc411e192cb9
+  revision_id:
+    value: '10'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574680941'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '0'
+  title:
+    value: 'About ESIE'
+  description:
+    value: 'About ESIE'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/about-esie'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-41'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1575926525'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+18:
+  id:
+    value: '18'
+  uuid:
+    value: 9c2569ec-a6d4-44e5-8519-bd0a3a8e651a
+  revision_id:
+    value: '18'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574884308'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: Content
+  description:
+    value: 'View different groupings of ESIE content'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:#'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-40'
+  expanded:
+    value: '1'
+  parent: false
+  changed:
+    value: '1575926311'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+19:
+  id:
+    value: '19'
+  uuid:
+    value: 3e377262-c82c-499a-be3d-febb95592ff0
+  revision_id:
+    value: '19'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574887633'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '0'
+  title:
+    value: Curate
+  description:
+    value: 'Tools for curating content'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:#'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-38'
+  expanded:
+    value: '1'
+  parent: false
+  changed:
+    value: '1576024050'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+20:
+  id:
+    value: '20'
+  uuid:
+    value: f8f1402c-fb31-4a49-a30c-6d96a54108bd
+  revision_id:
+    value: '20'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574887646'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '0'
+  title:
+    value: Create
+  description:
+    value: 'Tools for creating content'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:#'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-37'
+  expanded:
+    value: '0'
+  parent: false
+  changed:
+    value: '1575910754'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+21:
+  id:
+    value: '21'
+  uuid:
+    value: 367796d7-ddf0-4140-9cd1-28b8945f79ac
+  revision_id:
+    value: '21'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1574888253'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'My Content'
+  description:
+    value: 'Link to content created by current logged in user'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/my-content'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '-49'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:9c2569ec-a6d4-44e5-8519-bd0a3a8e651a'
+  changed:
+    value: '1575910589'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'
+25:
+  id:
+    value: '25'
+  uuid:
+    value: 3fff0e36-0c38-4f1c-b666-8a61615b2608
+  revision_id:
+    value: '25'
+  langcode:
+    value: en
+  bundle:
+    value: menu_link_content
+  revision_created:
+    value: '1576175946'
+  revision_user: false
+  revision_log_message: false
+  enabled:
+    value: '1'
+  title:
+    value: 'Any Digital Object'
+  description:
+    value: 'Create any Digital Object with a complete, fine grained form'
+  menu_name:
+    value: tools
+  link:
+    uri: 'internal:/node/add-list/curator'
+    title: ''
+    options: {  }
+  external:
+    value: '0'
+  rediscover:
+    value: '1'
+  weight:
+    value: '0'
+  expanded:
+    value: '0'
+  parent:
+    value: 'menu_link_content:b91b16f9-3cb3-48f6-99f3-b8c161bf4f90'
+  changed:
+    value: '1576175946'
+  default_langcode:
+    value: '1'
+  revision_default:
+    value: '1'
+  revision_translation_affected:
+    value: '1'

@@ -1,0 +1,39 @@
+uuid: 4dc14115-ad08-4708-af4d-8491cea25818
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - mobile_device_detection
+    - system
+    - user
+  theme:
+    - esie_subtheme
+id: tools_2
+theme: esie_subtheme
+region: top_header_menu
+weight: -9
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

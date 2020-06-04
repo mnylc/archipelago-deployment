@@ -1,0 +1,29 @@
+uuid: f94fbe70-8c3f-40b7-846c-b0b5f98de646
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.media
+  module:
+    - facets
+    - system
+  theme:
+    - seven
+id: media
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'facet_block:media'
+settings:
+  id: 'facet_block:media'
+  label: Media
+  provider: facets
+  label_display: visible
+  block_id: media
+visibility:
+  request_path:
+    id: request_path
+    pages: /explore-by-media
+    negate: false
+    context_mapping: {  }

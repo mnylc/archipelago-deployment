@@ -1,0 +1,40 @@
+uuid: f4a18283-4309-44a6-9452-a70dfe7e71f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ld_display_for_digital_objects_sql
+  module:
+    - ctools
+    - system
+    - views
+  theme:
+    - esie_subtheme
+id: views_block__ld_display_for_digital_objects_sql_block_1_2
+theme: esie_subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:ld_display_for_digital_objects_sql-block_1'
+settings:
+  id: 'views_block:ld_display_for_digital_objects_sql-block_1'
+  label: 'Linked Data for this Object'
+  provider: views
+  label_display: '0'
+  views_label: 'Linked Data for this Object'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      digital_object: digital_object
+      digital_object_collection: digital_object_collection
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "/node/*/edit\r\n/node/*/edit/*"
+    negate: true
+    context_mapping: {  }

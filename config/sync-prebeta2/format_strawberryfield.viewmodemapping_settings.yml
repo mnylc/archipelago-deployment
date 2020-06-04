@@ -1,0 +1,16 @@
+type_to_viewmode:
+  -
+    jsontype: Panorama
+    view_mode: digital_object_with_pannellum_panorama_
+    active: true
+    weight: 1
+  -
+    jsontype: PanoramaTour
+    view_mode: digital_object_with_pannellum_panorama_
+    active: true
+    weight: 2
+  -
+    jsontype: 3DModel
+    view_mode: digital_object_with_3d_viewer
+    active: true
+    weight: 3

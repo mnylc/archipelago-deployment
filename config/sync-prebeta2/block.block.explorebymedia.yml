@@ -1,0 +1,31 @@
+uuid: 4f793cb7-579b-43c5-b34b-74a269b89c4a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:explore_card_front_page:de018c4a-950b-4f6c-a00c-89ac84b93cbf'
+  module:
+    - block_content
+    - system
+  theme:
+    - esie_subtheme
+id: explorebymedia
+theme: esie_subtheme
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:de018c4a-950b-4f6c-a00c-89ac84b93cbf'
+settings:
+  id: 'block_content:de018c4a-950b-4f6c-a00c-89ac84b93cbf'
+  label: 'Explore By Media'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

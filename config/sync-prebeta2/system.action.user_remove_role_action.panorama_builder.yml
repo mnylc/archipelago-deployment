@@ -1,0 +1,14 @@
+uuid: f5817bc4-22cb-4f14-b3b0-dcfbc69c1a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.panorama_builder
+  module:
+    - user
+id: user_remove_role_action.panorama_builder
+label: 'Remove the Panorama Builder role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: panorama_builder

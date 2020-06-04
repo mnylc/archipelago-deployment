@@ -1,0 +1,20 @@
+uuid: 5f46f8da-5a2f-4401-91ef-4510810173a5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: esie_subtheme_local_actions
+theme: esie_subtheme
+region: content
+weight: -15
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

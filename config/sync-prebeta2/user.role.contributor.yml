@@ -1,0 +1,21 @@
+uuid: f96df10e-6217-4fd9-8854-46042e9472e0
+langcode: en
+status: true
+dependencies: {  }
+id: contributor
+label: Contributor
+weight: 6
+is_admin: null
+permissions:
+  - 'create digital_object content'
+  - 'delete media'
+  - 'delete own digital_object content'
+  - 'ds switch digital_object'
+  - 'edit own comments'
+  - 'edit own digital_object content'
+  - 'update media'
+  - 'use editorial transition unpublish'
+  - 'use node.contributor form mode'
+  - 'use panorama_publishing transition create_new_draft'
+  - 'view latest version'
+  - 'view own unpublished content'

@@ -1,0 +1,38 @@
+uuid: 56ba5eda-daab-4ecf-802e-2a7989428845
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.collection_membership
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - esie_subtheme
+id: esie_subtheme_views_block__collection_membership_block_1_2
+theme: esie_subtheme
+region: content
+weight: -13
+provider: null
+plugin: 'views_block:collection_membership-block_1'
+settings:
+  id: 'views_block:collection_membership-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      digital_object_collection: digital_object_collection
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

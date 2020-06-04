@@ -1,0 +1,22 @@
+uuid: 265e7a94-35cb-4e21-a2f3-2fd00a8fe226
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
+id: esie_subtheme_login
+theme: esie_subtheme
+region: footer_first
+weight: -16
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: '0'
+visibility: {  }

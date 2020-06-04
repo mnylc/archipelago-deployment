@@ -1,0 +1,22 @@
+uuid: dde25bae-8762-4fe8-a7ff-9ec0aefcd25b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: QeZBeCilQfeET3GeW6ZtJkEiwROADTZktFgKWwPieD4
+id: esie_subtheme_secondary_local_tasks
+theme: esie_subtheme
+region: breadcrumb
+weight: -17
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

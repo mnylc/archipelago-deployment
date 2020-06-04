@@ -1,0 +1,20 @@
+uuid: c667e691-f2e5-4bff-869c-a45f24afe51f
+langcode: en
+status: true
+dependencies: {  }
+id: panorama_builder
+label: 'Panorama Builder'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create digital_object content'
+  - 'create digital_object_collection content'
+  - 'delete own digital_object content'
+  - 'ds switch digital_object'
+  - 'edit own digital_object content'
+  - 'edit own digital_object_collection content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'use editorial transition unpublish'
+  - 'use node.panorama_tour_builder form mode'

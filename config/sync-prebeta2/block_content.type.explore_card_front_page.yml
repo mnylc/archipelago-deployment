@@ -1,0 +1,8 @@
+uuid: d3a2d02e-4e40-47f1-91d4-2fb57e17c6ab
+langcode: en
+status: true
+dependencies: {  }
+id: explore_card_front_page
+label: 'Explore Card - Front Page'
+revision: 1
+description: 'This block type has 3 elements, a Title, Icon/Image, and Link (which takes user to page showing those type of digital objects). For example, "Explore By Media" is a title, with a filmstrip icon, and links to a Solr search page by media type.'

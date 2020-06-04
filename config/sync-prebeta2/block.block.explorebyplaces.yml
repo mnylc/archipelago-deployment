@@ -1,0 +1,31 @@
+uuid: d5a5c851-9c64-48cb-9b95-bf4989aeb7d8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:explore_card_front_page:70951d0b-effb-4b9e-ab6a-c7c4aa4f9e19'
+  module:
+    - block_content
+    - system
+  theme:
+    - esie_subtheme
+id: explorebyplaces
+theme: esie_subtheme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:70951d0b-effb-4b9e-ab6a-c7c4aa4f9e19'
+settings:
+  id: 'block_content:70951d0b-effb-4b9e-ab6a-c7c4aa4f9e19'
+  label: 'Explore By Places'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

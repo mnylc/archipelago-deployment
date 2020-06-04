@@ -1,0 +1,30 @@
+uuid: 4f384b7b-473c-4606-bc1d-0e7a8404a161
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - esie_subtheme
+id: useraccountmenu_2
+theme: esie_subtheme
+region: header_form
+weight: -10
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '*'
+    negate: false
+    context_mapping: {  }

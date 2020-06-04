@@ -1,0 +1,22 @@
+uuid: dcffb5cb-c69b-4fcf-bf64-52a8a856dd45
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
+id: esie_subtheme_help
+theme: esie_subtheme
+region: featured_top
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

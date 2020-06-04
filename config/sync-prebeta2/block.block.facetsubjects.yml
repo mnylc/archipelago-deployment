@@ -1,0 +1,29 @@
+uuid: 483b01e6-df63-454b-b1b3-3f4d2e31c71c
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.subject
+  module:
+    - facets
+    - system
+  theme:
+    - esie_subtheme
+id: facetsubjects
+theme: esie_subtheme
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'facet_block:subject'
+settings:
+  id: 'facet_block:subject'
+  label: Subjects
+  provider: facets
+  label_display: visible
+  block_id: facetsubjects
+visibility:
+  request_path:
+    id: request_path
+    pages: /explore-by-subjects
+    negate: false
+    context_mapping: {  }

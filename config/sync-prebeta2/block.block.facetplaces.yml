@@ -1,0 +1,29 @@
+uuid: 5237f2b2-f996-40b3-9482-64dd86ef7836
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.facet_p
+  module:
+    - facets
+    - system
+  theme:
+    - seven
+id: facetplaces
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'facet_block:facet_p'
+settings:
+  id: 'facet_block:facet_p'
+  label: 'Facet - Places'
+  provider: facets
+  label_display: visible
+  block_id: facetplaces
+visibility:
+  request_path:
+    id: request_path
+    pages: /explore-by-places
+    negate: false
+    context_mapping: {  }

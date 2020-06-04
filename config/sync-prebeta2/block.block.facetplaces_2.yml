@@ -1,0 +1,29 @@
+uuid: 635cef6b-4c09-4e9c-896d-14d4138cdc82
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.facet_p
+  module:
+    - facets
+    - system
+  theme:
+    - esie_subtheme
+id: facetplaces_2
+theme: esie_subtheme
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'facet_block:facet_p'
+settings:
+  id: 'facet_block:facet_p'
+  label: Places
+  provider: facets
+  label_display: visible
+  block_id: facetplaces_2
+visibility:
+  request_path:
+    id: request_path
+    pages: /explore-by-places
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: 805a1f9e-c074-4dc9-b629-00fb789c9822
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - esie_subtheme
+id: sitebranding_3
+theme: esie_subtheme
+region: top_header
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

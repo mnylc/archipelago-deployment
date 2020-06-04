@@ -1,0 +1,29 @@
+uuid: 62e159f9-5e65-486b-a79e-122e7678dece
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet._metadata_city
+  module:
+    - facets
+    - system
+  theme:
+    - esie_subtheme
+id: metadatacity
+theme: esie_subtheme
+region: sidebar_first
+weight: -14
+provider: null
+plugin: 'facet_block:_metadata_city'
+settings:
+  id: 'facet_block:_metadata_city'
+  label: ' Metadata » City'
+  provider: facets
+  label_display: visible
+  block_id: metadatacity
+visibility:
+  request_path:
+    id: request_path
+    pages: '/search*'
+    negate: false
+    context_mapping: {  }

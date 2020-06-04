@@ -1,0 +1,21 @@
+uuid: 9b1e7cf1-db2a-4c98-b0aa-af3f0d5008a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.explore_card_front_page
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.explore_card_front_page.field_title
+field_name: field_title
+entity_type: block_content
+bundle: explore_card_front_page
+label: Title
+description: 'Title of the Card'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

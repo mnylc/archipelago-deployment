@@ -1,0 +1,23 @@
+uuid: e3acd05d-87da-43a0-be3f-57adf554b72c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.solr_search_content
+  module:
+    - views
+  theme:
+    - esie_subtheme
+id: esie_subtheme_exposedformsolr_search_contentpage_1
+theme: esie_subtheme
+region: top_header_form
+weight: -10
+provider: null
+plugin: 'views_exposed_filter_block:solr_search_content-page_1'
+settings:
+  id: 'views_exposed_filter_block:solr_search_content-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

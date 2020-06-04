@@ -1,0 +1,14 @@
+uuid: 8a5d662c-c3ec-4a29-85c6-ea773a580cb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.panorama_builder
+  module:
+    - user
+id: user_add_role_action.panorama_builder
+label: 'Add the Panorama Builder role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: panorama_builder

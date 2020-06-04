@@ -1,0 +1,21 @@
+uuid: 0c689a94-53ac-49fd-9149-a9fe0e8c6dd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.explore_card_front_page
+    - field.storage.block_content.field_link
+  module:
+    - text
+id: block_content.explore_card_front_page.field_link
+field_name: field_link
+entity_type: block_content
+bundle: explore_card_front_page
+label: Link
+description: "Add a link where this card should direct to. Just add the URL, no need to surround with <a> tags. Please add the relative link, e.g.\r\n/explore-by-places."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

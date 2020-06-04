@@ -1,0 +1,31 @@
+uuid: 3c7566fa-e2f1-41b0-ac32-248c083b69c9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6fda68d2-e56f-4c7d-a6f5-15a59e09848b'
+  module:
+    - block_content
+    - system
+  theme:
+    - esie_subtheme
+id: welcomemessagefrontpage
+theme: esie_subtheme
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:6fda68d2-e56f-4c7d-a6f5-15a59e09848b'
+settings:
+  id: 'block_content:6fda68d2-e56f-4c7d-a6f5-15a59e09848b'
+  label: 'Welcome Message - Front Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

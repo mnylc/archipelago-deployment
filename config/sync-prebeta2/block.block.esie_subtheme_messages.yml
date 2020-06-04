@@ -1,0 +1,22 @@
+uuid: 4c52cd7f-3324-4266-9a55-eb31614879ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: XJqWwLt1LDCnazcEN6QkJmCLjk4R0__-8s0OO9xeNjg
+id: esie_subtheme_messages
+theme: esie_subtheme
+region: highlighted
+weight: -9
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

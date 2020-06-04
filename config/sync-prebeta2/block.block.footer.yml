@@ -1,0 +1,25 @@
+uuid: 0ec90d9f-d146-43cb-823b-465360d0406f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - esie_subtheme
+id: footer
+theme: esie_subtheme
+region: footer_second
+weight: -15
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

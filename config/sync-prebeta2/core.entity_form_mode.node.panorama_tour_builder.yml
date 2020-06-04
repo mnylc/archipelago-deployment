@@ -1,0 +1,10 @@
+uuid: 18c25b1c-4a66-4c83-9fd0-59ae3fba6276
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.panorama_tour_builder
+label: 'Panorama Tour Builder'
+targetEntityType: node
+cache: true

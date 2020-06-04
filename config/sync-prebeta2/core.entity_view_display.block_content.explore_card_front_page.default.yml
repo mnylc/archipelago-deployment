@@ -1,0 +1,43 @@
+uuid: 9c5c53a7-7f43-41af-9e43-8a83e74aa83e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.explore_card_front_page
+    - field.field.block_content.explore_card_front_page.field_image
+    - field.field.block_content.explore_card_front_page.field_link
+    - field.field.block_content.explore_card_front_page.field_title
+  module:
+    - image
+    - text
+id: block_content.explore_card_front_page.default
+targetEntityType: block_content
+bundle: explore_card_front_page
+mode: default
+content:
+  field_image:
+    weight: 4
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

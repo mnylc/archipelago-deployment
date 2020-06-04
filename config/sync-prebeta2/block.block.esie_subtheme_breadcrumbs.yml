@@ -1,0 +1,22 @@
+uuid: 2aef5f0b-54ef-4250-bc81-c29270d73940
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: WWu2OQswgCztl9OeXjD1stexIEMZsSgPMYIdC-JHx9c
+id: esie_subtheme_breadcrumbs
+theme: esie_subtheme
+region: breadcrumb
+weight: -19
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

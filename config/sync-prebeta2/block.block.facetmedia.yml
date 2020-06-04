@@ -1,0 +1,29 @@
+uuid: 57d3c305-8c04-4183-9022-4f3604cf6868
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.media
+  module:
+    - facets
+    - system
+  theme:
+    - esie_subtheme
+id: facetmedia
+theme: esie_subtheme
+region: sidebar_first
+weight: -13
+provider: null
+plugin: 'facet_block:media'
+settings:
+  id: 'facet_block:media'
+  label: 'Media Type'
+  provider: facets
+  label_display: visible
+  block_id: facetmedia
+visibility:
+  request_path:
+    id: request_path
+    pages: /explore-by-media
+    negate: false
+    context_mapping: {  }

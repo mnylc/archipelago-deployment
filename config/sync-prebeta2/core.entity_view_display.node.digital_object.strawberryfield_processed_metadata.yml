@@ -1,0 +1,79 @@
+uuid: ed6a3c2d-2e63-4749-a335-e6f7c7bd9ee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.strawberryfield_processed_metadata
+    - field.field.node.digital_object.body
+    - field.field.node.digital_object.field_descriptive_metadata
+    - field.field.node.digital_object.field_tags
+    - node.type.digital_object
+  module:
+    - ds
+    - field_layout
+    - format_strawberryfield
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  ds:
+    layout:
+      id: layout_twocol
+      library: layout_discovery/twocol
+      disable_css: false
+      entity_classes: no_classes
+      settings: {  }
+    regions:
+      top:
+        - node_title
+      first:
+        - 'display_field_copy:node-static_media'
+      second:
+        - field_descriptive_metadata
+    fields:
+      'display_field_copy:node-static_media':
+        plugin_id: 'display_field_copy:node-static_media'
+        weight: 1
+        label: hidden
+        formatter: strawberry_image_formatter
+        settings:
+          formatter:
+            iiif_base_url: 'http://ec2-3-231-14-203.compute-1.amazonaws.com:8183/iiif/2/'
+            iiif_base_url_internal: 'http://esmero-cantaloupe:8182/iiif/2/'
+            json_key_source: 'as:image'
+            number_images: '1'
+            max_width: '240'
+            max_height: '0'
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
+id: node.digital_object.strawberryfield_processed_metadata
+targetEntityType: node
+bundle: digital_object
+mode: strawberryfield_processed_metadata
+content:
+  field_descriptive_metadata:
+    type: strawberry_metadata_formatter
+    weight: 2
+    region: second
+    label: hidden
+    settings:
+      specs: 'http://www.w3.org/1999/xhtml'
+      metadatadisplayentity_id: '5'
+      metadatadisplayentity_uselabel: 0
+      label: 'Descriptive Metadata'
+    third_party_settings: {  }
+hidden:
+  body: true
+  content_moderation_control: true
+  field_tags: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

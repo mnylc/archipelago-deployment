@@ -1,0 +1,22 @@
+uuid: 0314a311-7f30-4108-8751-dfec8b32d4ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: cts_esie_theme
+label: 'Esie Theme'
+theme: esie_subtheme
+pages: '*'
+condition_collection:
+  2e4f71f2-ef6c-4947-942a-1d0306cf7f4b:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      panorama_builder: panorama_builder
+      contributor: contributor
+      curator: curator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    uuid: 2e4f71f2-ef6c-4947-942a-1d0306cf7f4b

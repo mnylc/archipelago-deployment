@@ -1,0 +1,23 @@
+uuid: 26eb1841-4966-49fd-947b-3e3f1088a335
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.descriptive_metadata_agents
+  module:
+    - facets
+  theme:
+    - esie_subtheme
+id: descriptivemetadataagents_2
+theme: esie_subtheme
+region: featured_bottom_first
+weight: -8
+provider: null
+plugin: 'facet_block:descriptive_metadata_agents'
+settings:
+  id: 'facet_block:descriptive_metadata_agents'
+  label: 'Metadata » People'
+  provider: facets
+  label_display: visible
+  block_id: descriptivemetadataagents_2
+visibility: {  }

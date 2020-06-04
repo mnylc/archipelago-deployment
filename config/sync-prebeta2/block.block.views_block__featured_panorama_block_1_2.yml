@@ -1,0 +1,36 @@
+uuid: 07743375-70ab-4383-b333-04ce12760e13
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_panorama
+  module:
+    - mobile_device_detection
+    - system
+    - views
+  theme:
+    - esie_subtheme
+id: views_block__featured_panorama_block_1_2
+theme: esie_subtheme
+region: featured_second_top_right
+weight: 0
+provider: null
+plugin: 'views_block:featured_panorama-block_1'
+settings:
+  id: 'views_block:featured_panorama-block_1'
+  label: 'Featured Panorama'
+  provider: views
+  label_display: visible
+  views_label: 'Featured Panorama'
+  items_per_page: none
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

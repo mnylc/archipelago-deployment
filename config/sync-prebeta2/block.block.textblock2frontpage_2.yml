@@ -1,0 +1,37 @@
+uuid: b08cc68a-b311-4e9c-8f36-cc5248443720
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e4383521-68a5-4855-8161-e29eee44f26b'
+  module:
+    - block_content
+    - mobile_device_detection
+    - system
+  theme:
+    - esie_subtheme
+id: textblock2frontpage_2
+theme: esie_subtheme
+region: featured_last
+weight: 0
+provider: null
+plugin: 'block_content:e4383521-68a5-4855-8161-e29eee44f26b'
+settings:
+  id: 'block_content:e4383521-68a5-4855-8161-e29eee44f26b'
+  label: 'Text block 2 - Front Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

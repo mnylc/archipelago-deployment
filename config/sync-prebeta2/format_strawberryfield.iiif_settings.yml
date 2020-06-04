@@ -1,0 +1,2 @@
+pub_server_url: 'http://ec2-3-231-14-203.compute-1.amazonaws.com:8183/iiif/2'
+int_server_url: 'http://esmero-cantaloupe:8182/iiif/2'

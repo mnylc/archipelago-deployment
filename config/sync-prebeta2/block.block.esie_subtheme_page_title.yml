@@ -1,0 +1,27 @@
+uuid: cc1f7db6-daf8-48c6-8b6e-08025f3892d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - esie_subtheme
+_core:
+  default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
+id: esie_subtheme_page_title
+theme: esie_subtheme
+region: highlighted
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

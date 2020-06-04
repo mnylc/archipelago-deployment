@@ -1,0 +1,19 @@
+uuid: f50180ff-7d98-4ec7-b698-1680365c7f06
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: cts_seven_admin_theme
+label: 'Seven Admin Theme'
+theme: seven
+pages: '*'
+condition_collection:
+  fa62816a-7b7a-4257-9694-18d176ebb12c:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    uuid: fa62816a-7b7a-4257-9694-18d176ebb12c

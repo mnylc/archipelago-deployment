@@ -1,0 +1,29 @@
+uuid: 09da2312-a6d7-44d6-bffe-03cba446186c
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.object_type
+  module:
+    - facets
+    - system
+  theme:
+    - esie_subtheme
+id: types
+theme: esie_subtheme
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'facet_block:object_type'
+settings:
+  id: 'facet_block:object_type'
+  label: 'Object Types'
+  provider: facets
+  label_display: visible
+  block_id: types
+visibility:
+  request_path:
+    id: request_path
+    pages: '/search*'
+    negate: false
+    context_mapping: {  }

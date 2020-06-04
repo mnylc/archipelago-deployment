@@ -1,0 +1,30 @@
+uuid: bc04d5d5-a5fc-4ae3-baa9-93ab16ab8703
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_panorama
+  module:
+    - system
+    - views
+  theme:
+    - esie_subtheme
+id: views_block__featured_panorama_block_1
+theme: esie_subtheme
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:featured_panorama-block_1'
+settings:
+  id: 'views_block:featured_panorama-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,37 @@
+uuid: f0f93630-1903-4938-a428-8dda378c8179
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4601196d-3cac-4ed6-8ba7-f7f6602fa06c'
+  module:
+    - block_content
+    - mobile_device_detection
+    - system
+  theme:
+    - esie_subtheme
+id: toolkitfrontpage_2
+theme: esie_subtheme
+region: featured_second_top_left
+weight: -16
+provider: null
+plugin: 'block_content:4601196d-3cac-4ed6-8ba7-f7f6602fa06c'
+settings:
+  id: 'block_content:4601196d-3cac-4ed6-8ba7-f7f6602fa06c'
+  label: 'Toolkit - Front Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  mobile_device_detection_condition_plugin:
+    id: mobile_device_detection_condition_plugin
+    devices: {  }
+    negate: null
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

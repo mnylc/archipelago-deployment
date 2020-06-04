@@ -1,0 +1,10 @@
+uuid: ca53177a-5a5d-4320-a1ac-8b98cbee2a59
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.curator
+label: Curator
+targetEntityType: node
+cache: true

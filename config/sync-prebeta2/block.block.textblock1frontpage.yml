@@ -1,0 +1,31 @@
+uuid: e3ca6fb5-0979-4cb4-94e2-d0b23ed5aaae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:35683423-a2e5-4118-99a3-99e8da925b10'
+  module:
+    - block_content
+    - system
+  theme:
+    - esie_subtheme
+id: textblock1frontpage
+theme: esie_subtheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:35683423-a2e5-4118-99a3-99e8da925b10'
+settings:
+  id: 'block_content:35683423-a2e5-4118-99a3-99e8da925b10'
+  label: 'Text block 1 - Front Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

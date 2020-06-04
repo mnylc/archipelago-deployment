@@ -1,0 +1,188 @@
+uuid: cf56225b-14be-4020-b50c-768a3a41d600
+langcode: en
+status: open
+dependencies:
+  module:
+    - webform_strawberryfield
+open: null
+close: null
+weight: 0
+uid: 4
+template: false
+archive: false
+id: esie_basic_panorama
+title: 'Allison''s Original webform'
+description: ''
+category: Archipel
+elements: "basic_information:\n  '#type': webform_wizard_page\n  '#title': 'Basic information'\n  '#next_button_label': 'Move on to next step'\n  title:\n    '#type': textfield\n    '#title': Title\n    '#description': 'Enter a brief title for the image (letters and numbers only, limit of 100 characters)'\n    '#maxlength': '100'\n    '#format_items': comma\n  description:\n    '#type': textarea\n    '#title': Description\n    '#description': 'Enter 2-3 sentences describing the contents of the image.'\n  creator:\n    '#type': textfield\n    '#title': Creator\n    '#description': 'Enter the name/s of the individual/s who captured this image.'\n  contributor:\n    '#type': textfield\n    '#title': Contributor\n    '#description': 'Enter the name/s of the affiliated contributing organization. Example: Buffalo State College, Senior History Class, Spring Semester 2020'\n  collection_dc_source_:\n    '#type': textfield\n    '#title': 'Collection (DC:Source)'\nsubjects_more_information:\n  '#type': webform_wizard_page\n  '#title': 'Subjects & More Information'\n  '#prev_button_label': 'Return to previous step'\n  '#next_button_label': 'Move on to next step'\n  geographic_location:\n    '#type': webform_metadata_nominatim\n    '#title': 'Address or Geographic Location'\n    '#format_items': ol\n    '#lat__access': true\n    '#lng__access': true\n    '#category__access': true\n    '#osm_id__access': true\n    '#osm_type__access': true\n    '#neighbourhood__access': true\n    '#locality__access': true\n    '#city__access': true\n    '#state__access': true\n    '#postcode__access': true\n    '#country__access': true\n  library_congress_subject_heading:\n    '#type': webform_metadata_loc\n    '#title': 'Library Congress Subject Heading'\n    '#multiple': 4\n  wikidata_subjects:\n    '#type': webform_metadata_wikidata\n    '#title': 'Wikidata Subjects'\n    '#multiple': 4\n  coverage_getty_thesaurus_of_geographic_names:\n    '#type': webform_metadata_getty\n    '#title': 'Coverage: Getty Thesaurus of Geographic Names'\n    '#multiple': 2\n  lanuage:\n    '#type': textfield\n    '#title': Language\n    '#default_value': English\n  date:\n    '#type': date\n    '#title': Date\n    '#description': 'Confirm date listed matches date image was taken (not today&#39;s date).'\nupload_image_file:\n  '#type': webform_wizard_page\n  '#title': 'Upload Image File'\n  select_image_file_to_upload:\n    '#type': webform_image_file\n    '#title': 'Select Panorama Image to Upload'\n    '#format_items': comma\n    '#file_preview': 'thumbnail:image'\n    '#max_filesize': '50'\n    '#file_extensions': 'gif jpg png svg jp2'\nconfirm_information:\n  '#type': webform_wizard_page\n  '#title': 'Confirm Information'\n  '#prev_button_label': 'Return to previous step'\n  '#next_button_label': 'Move on to next step'\n  format:\n    '#type': textfield\n    '#title': Format\n    '#description': 'Format from exif'\n  identifier:\n    '#type': textfield\n    '#title': Identifier\n    '#description': 'Identifier from exif'\n  publisher:\n    '#type': textfield\n    '#title': Publisher\n    '#default_value': 'Western New York Library Resources Council'\n  rights:\n    '#type': textfield\n    '#title': Rights\n    '#description': |\n      <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" title=\"https://creativecommons.org/licenses/by-nc/4.0/\n      Ctrl+Click or tap to follow the link\">Creative Commons license CC BY-NC 4.0</a>\n      \n  type:\n    '#type': textfield\n    '#title': Type\n    '#default_value': 'Interactive Resource'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 'Save Metadata'"
+css: ''
+javascript: ''
+settings:
+  ajax: true
+  ajax_scroll_top: form
+  ajax_progress_type: throbber
+  ajax_effect: slide
+  ajax_speed: null
+  page: false
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_admin_theme: false
+  form_title: source_entity_webform
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: true
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: inline
+  confirmation_title: ''
+  confirmation_message: 'Thanks, You are almost done. Press &quot;Save Metadata&quot; and then Again at the bottom to persist the content'
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: true
+  results_disabled_ignore: true
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  a_strawberryfield_harvester:
+    id: ' strawberryField_webform_handler'
+    label: 'A strawberryField harvester'
+    handler_id: a_strawberryfield_harvester
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      submission_url: 'https://api.example.org/SOME/ENDPOINT'
+      upload_scheme: s3
